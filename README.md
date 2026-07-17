@@ -1,2 +1,21 @@
-# ai-build-log
-Index of daily AI/agentic project builds - a new smal working project every day, exploring trending RAG/gent/LLM patterns.
+# AI Build Log
+
+A new small, working AI project every day — hands-on exploration of the patterns currently showing up across AI engineering job listings: RAG, multi-agent orchestration (LangGraph), tool-using agents, guardrails, and evaluation.
+
+Each entry below links to its own standalone repo with full code, tests, and a README.
+
+## Why this exists
+
+Daily practice building the specific patterns recruiters are screening for in 2026: retrieval-augmented generation, agentic workflows, MCP-connected tools, and deployment-grade structure (tests, Docker, honest docs) — not just tutorials.
+
+## Projects
+
+| Date | Project | Idea area | Repo |
+|---|---|---|---|
+| _(new row added daily)_ | | | |
+
+## A note on scope
+
+These are portfolio/demo builds — small, focused implementations of one concept at a time, not production systems serving real traffic. Anywhere a real-world version would touch money, health, or other high-stakes actions (e.g. trading, medical diagnosis), the project is explicitly scoped as a simulation/demo using sample data only, and says so in its own README. No fabricated metrics, uptime numbers, or user counts anywhere.
+
+See [TRACKER.md](./TRACKER.md) for the build log and idea rotation this is drawing from.
