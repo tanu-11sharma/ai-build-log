@@ -4,9 +4,9 @@ Source of truth for the daily trending-AI-project automation.
 
 ## State
 
-- Next rotation index: 0
-- Used repo slugs: (none yet)
-- Last run date: (none yet)
+- Next rotation index: 1
+- Used repo slugs: rag-knowledge-assistant
+- Last run date: 2026-07-18
 
 ## Idea rotation
 
@@ -44,3 +44,4 @@ Cycle through in order (wrap to the top when exhausted). Skip any slug already i
 
 | Day | Date | Idea slug | Repo | LinkedIn post drafted? |
 |---|---|---|---|---|
+| 1 | 2026-07-18 | rag-knowledge-assistant | [rag-knowledge-assistant](https://github.com/tanu-11sharma/rag-knowledge-assistant) | Yes |
