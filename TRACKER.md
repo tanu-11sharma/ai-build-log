@@ -1,16 +1,22 @@
 # Tracker
 
+
 Source of truth for the daily trending-AI-project automation.
+
 
 ## State
 
-- Next rotation index: 2
-- Used repo slugs: rag-knowledge-assistant, resume-job-matcher
+
+- Next rotation index: 3
+- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant
 - Last run date: 2026-07-20
+
 
 ## Idea rotation
 
+
 Cycle through in order (wrap to the top when exhausted). Skip any slug already in "Used repo slugs" and move to the next one instead — never reuse a slug.
+
 
 1. rag-knowledge-assistant — RAG Q&A agent over a small document set, with cited answers
 2. resume-job-matcher — AI resume/candidate-to-job matching agent with a "why this fits" rationale
@@ -33,16 +39,20 @@ Cycle through in order (wrap to the top when exhausted). Skip any slug already i
 19. finance-budget-agent — Personal budget/expense categorization agent over sample transaction data (clearly not financial advice)
 20. doc-classifier-agent — Smart document classification/routing agent (sorts sample documents into categories)
 
+
 ## Safety rules for every project (non-negotiable)
+
 
 - Never implement real trading/order execution, real medical diagnosis, or any real destructive browser/file/email action against live external systems.
 - Default to synthetic/sample data. Any project touching finance, health, or legal topics must say clearly in its README that it is a non-production demo, not advice.
 - No fabricated metrics, uptime numbers, or user counts anywhere (README, code comments, commit messages, or the LinkedIn post).
 - Each project must actually run and pass its own tests before being pushed.
 
+
 ## Daily log
+
 
 | Day | Date | Idea slug | Repo | LinkedIn post drafted? |
 |---|---|---|---|---|
 | 1 | 2026-07-18 | rag-knowledge-assistant | [rag-knowledge-assistant](https://github.com/tanu-11sharma/rag-knowledge-assistant) | Yes |
-| 2 | 2026-07-20 | resume-job-matcher | [resume-job-matcher](https://github.com/tanu-11sharma/resume-job-matcher) | Yes |
+| 2 | 2026-07-20 | multiagent-research-assistant | [multiagent-research-assistant](https://github.com/tanu-11sharma/multiagent-research-assistant) | Yes |
