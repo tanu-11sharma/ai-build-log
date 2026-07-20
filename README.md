@@ -12,6 +12,7 @@ Daily practice building the specific patterns recruiters are screening for in 20
 
 | Date | Project | Idea area | Repo |
 |---|---|---|---|
+| 2026-07-20 | Resume-Job Matcher | Explainable candidate-to-job matching agent | [resume-job-matcher](https://github.com/tanu-11sharma/resume-job-matcher) |
 | 2026-07-18 | RAG Knowledge Assistant | Retrieval-augmented generation (RAG) Q&A with citations | [rag-knowledge-assistant](https://github.com/tanu-11sharma/rag-knowledge-assistant) |
 | _(new row added daily)_ | | | |
 
