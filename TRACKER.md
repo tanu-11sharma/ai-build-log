@@ -4,9 +4,9 @@ Source of truth for the daily trending-AI-project automation.
 
 ## State
 
-- Next rotation index: 4
-- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent
-- Last run date: 2026-07-21
+- Next rotation index: 5
+- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot
+- Last run date: 2026-07-22
 
 ## Idea rotation
 
@@ -47,3 +47,4 @@ Cycle through in order (wrap to the top when exhausted). Skip any slug already i
 | 1 | 2026-07-18 | rag-knowledge-assistant | [rag-knowledge-assistant](https://github.com/tanu-11sharma/rag-knowledge-assistant) | Yes |
 | 2 | 2026-07-20 | multiagent-research-assistant | [multiagent-research-assistant](https://github.com/tanu-11sharma/multiagent-research-assistant) | Yes |
 | 3 | 2026-07-21 | mcp-productivity-agent | [mcp-productivity-agent](https://github.com/tanu-11sharma/mcp-productivity-agent) | Yes |
+| 4 | 2026-07-22 | support-guardrails-bot | [support-guardrails-bot](https://github.com/tanu-11sharma/support-guardrails-bot) | Yes |
