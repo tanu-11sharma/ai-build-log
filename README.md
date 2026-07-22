@@ -12,6 +12,7 @@ Daily practice building the specific patterns recruiters are screening for in 20
 
 | Date | Project | Idea area | Repo |
 |---|---|---|---|
+| 2026-07-22 | Support Guardrails Bot | Customer support chatbot with PII redaction and out-of-scope refusal guardrails | [support-guardrails-bot](https://github.com/tanu-11sharma/support-guardrails-bot) |
 | 2026-07-21 | MCP Productivity Agent | MCP-style tool-calling agent over a mock tasks/notes API | [mcp-productivity-agent](https://github.com/tanu-11sharma/mcp-productivity-agent) |
 | 2026-07-20 | Multi-Agent Research Assistant | LangGraph-style planner-searcher-writer multi-agent pipeline | [multiagent-research-assistant](https://github.com/tanu-11sharma/multiagent-research-assistant) |
 | 2026-07-20 | Resume-Job Matcher | Explainable candidate-to-job matching agent | [resume-job-matcher](https://github.com/tanu-11sharma/resume-job-matcher) |
