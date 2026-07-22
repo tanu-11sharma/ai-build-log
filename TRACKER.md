@@ -4,8 +4,8 @@ Source of truth for the daily trending-AI-project automation.
 
 ## State
 
-- Next rotation index: 5
-- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot
+- Next rotation index: 6
+- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot, nl-to-sql-agent
 - Last run date: 2026-07-22
 
 ## Idea rotation
@@ -42,9 +42,13 @@ Cycle through in order (wrap to the top when exhausted). Skip any slug already i
 
 ## Daily log
 
+Note: rows for days 1-5 were backfilled on 2026-07-22 because this tracker's state had drifted out of sync with what was actually built and pushed to GitHub (repos existed for ideas 1-5 but were never logged here). Dates for days 1-4 are approximate, based on each repo's last-updated timestamp at backfill time.
+
 | Day | Date | Idea slug | Repo | LinkedIn post drafted? |
 |---|---|---|---|---|
-| 1 | 2026-07-18 | rag-knowledge-assistant | [rag-knowledge-assistant](https://github.com/tanu-11sharma/rag-knowledge-assistant) | Yes |
-| 2 | 2026-07-20 | multiagent-research-assistant | [multiagent-research-assistant](https://github.com/tanu-11sharma/multiagent-research-assistant) | Yes |
-| 3 | 2026-07-21 | mcp-productivity-agent | [mcp-productivity-agent](https://github.com/tanu-11sharma/mcp-productivity-agent) | Yes |
-| 4 | 2026-07-22 | support-guardrails-bot | [support-guardrails-bot](https://github.com/tanu-11sharma/support-guardrails-bot) | Yes |
+| 1 | ~2026-07-18 | rag-knowledge-assistant | https://github.com/tanu-11sharma/rag-knowledge-assistant | Unknown (backfilled) |
+| 2 | ~2026-07-20 | multiagent-research-assistant | https://github.com/tanu-11sharma/multiagent-research-assistant | Unknown (backfilled) |
+| 3 | ~2026-07-20 | resume-job-matcher | https://github.com/tanu-11sharma/resume-job-matcher | Unknown (backfilled) |
+| 4 | ~2026-07-21 | mcp-productivity-agent | https://github.com/tanu-11sharma/mcp-productivity-agent | Unknown (backfilled) |
+| 5 | ~2026-07-22 | support-guardrails-bot | https://github.com/tanu-11sharma/support-guardrails-bot | Unknown (backfilled) |
+| 6 | 2026-07-22 | nl-to-sql-agent | https://github.com/tanu-11sharma/nl-to-sql-agent | Yes |
