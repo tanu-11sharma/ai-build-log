@@ -4,9 +4,9 @@ Source of truth for the daily trending-AI-project automation.
 
 ## State
 
-- Next rotation index: 8
-- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot, nl-to-sql-agent, video-content-summarizer, inbox-triage-agent
-- Last run date: 2026-07-25
+- Next rotation index: 9
+- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot, nl-to-sql-agent, video-content-summarizer, inbox-triage-agent, workflow-automation-agent
+- Last run date: 2026-07-26
 
 ## Idea rotation
 
@@ -54,3 +54,4 @@ Note: rows for days 1-5 were backfilled on 2026-07-22 because this tracker's sta
 | 6 | 2026-07-22 | nl-to-sql-agent | https://github.com/tanu-11sharma/nl-to-sql-agent | Yes |
 | 7 | 2026-07-23 | video-content-summarizer | https://github.com/tanu-11sharma/video-content-summarizer | Yes |
 | 8 | 2026-07-25 | inbox-triage-agent | https://github.com/tanu-11sharma/inbox-triage-agent | Yes |
+| 9 | 2026-07-26 | workflow-automation-agent | https://github.com/tanu-11sharma/workflow-automation-agent | Yes |
