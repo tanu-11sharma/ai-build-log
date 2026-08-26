@@ -4,13 +4,13 @@ Source of truth for the daily trending-AI-project automation.
 
 ## State
 
-- Next rotation index: 14
-- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot, nl-to-sql-agent, video-content-summarizer, inbox-triage-agent, workflow-automation-agent, ai-code-review-agent, meeting-notes-agent, ai-api-with-evals, content-moderation-guardrails, retrieval-eval-harness
-- Last run date: 2026-08-24
+- Next rotation index: 16
+- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot, nl-to-sql-agent, video-content-summarizer, inbox-triage-agent, workflow-automation-agent, ai-code-review-agent, meeting-notes-agent, ai-api-with-evals, content-moderation-guardrails, retrieval-eval-harness, market-analysis-agent-simulated, real-estate-pricing-agent
+- Last run date: 2026-08-26
 
 ## Idea rotation
 
-Cycle through in order (wrap to the top when exhausted). Skip any slug already in "Used repo slugs" and move to the next one instead -- never reuse a slug.
+Cycle through in order (wrap to the top when exhausted). Skip any slug already in "Used repo slugs" and move to the next one instead — never reuse a slug.
 
 1. rag-knowledge-assistant — RAG Q&A agent over a small document set, with cited answers
 2. resume-job-matcher — AI resume/candidate-to-job matching agent with a "why this fits" rationale
@@ -44,8 +44,4 @@ Cycle through in order (wrap to the top when exhausted). Skip any slug already i
 
 | Day | Date | Idea slug | Repo | LinkedIn post drafted? |
 |---|---|---|---|---|
-| 1 | 2026-07-28 | ai-code-review-agent | [ai-code-review-agent](https://github.com/tanu-11sharma/ai-code-review-agent) | Yes |
-| 2 | 2026-07-29 | meeting-notes-agent | [meeting-notes-agent](https://github.com/tanu-11sharma/meeting-notes-agent) | Yes |
-| 3 | 2026-08-02 | ai-api-with-evals | [ai-api-with-evals](https://github.com/tanu-11sharma/ai-api-with-evals) | Yes |
-| 4 | 2026-08-05 | content-moderation-guardrails | [content-moderation-guardrails](https://github.com/tanu-11sharma/content-moderation-guardrails) | Yes |
-| 5 | 2026-08-24 | retrieval-eval-harness | [retrieval-eval-harness](https://github.com/tanu-11sharma/retrieval-eval-harness) | Yes |
+| 1 | 2026-08-26 | real-estate-pricing-agent | [real-estate-pricing-agent](https://github.com/tanu-11sharma/real-estate-pricing-agent) | Yes |
