@@ -4,9 +4,9 @@ Source of truth for the daily trending-AI-project automation.
 
 ## State
 
-- Next rotation index: 16
-- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot, nl-to-sql-agent, video-content-summarizer, inbox-triage-agent, workflow-automation-agent, ai-code-review-agent, meeting-notes-agent, ai-api-with-evals, content-moderation-guardrails, retrieval-eval-harness, market-analysis-agent-simulated, real-estate-pricing-agent
-- Last run date: 2026-08-26
+- Next rotation index: 18
+- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot, nl-to-sql-agent, video-content-summarizer, inbox-triage-agent, workflow-automation-agent, ai-code-review-agent, meeting-notes-agent, ai-api-with-evals, content-moderation-guardrails, retrieval-eval-harness, market-analysis-agent-simulated, real-estate-pricing-agent, job-market-matching-agent, browser-task-agent-simulated
+- Last run date: 2026-09-02
 
 ## Idea rotation
 
@@ -44,4 +44,4 @@ Cycle through in order (wrap to the top when exhausted). Skip any slug already i
 
 | Day | Date | Idea slug | Repo | LinkedIn post drafted? |
 |---|---|---|---|---|
-| 1 | 2026-08-26 | real-estate-pricing-agent | [real-estate-pricing-agent](https://github.com/tanu-11sharma/real-estate-pricing-agent) | Yes |
+| 1 | 2026-09-02 | browser-task-agent-simulated | [browser-task-agent-simulated](https://github.com/tanu-11sharma/browser-task-agent-simulated) | Yes |
