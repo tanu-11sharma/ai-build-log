@@ -12,6 +12,7 @@ Daily practice building the specific patterns recruiters are screening for in 20
 
 | Date | Project | Idea area | Repo |
 |---|---|---|---|
+| 2026-09-02 | Browser Task Agent (Simulated) | Agentic browser-task automation: a rule-based plan-act-verify agent that fills and submits a support-request form against a bundled, local, mock HTML page (no real browser or live site involved) | [browser-task-agent-simulated](https://github.com/tanu-11sharma/browser-task-agent-simulated) |
 | 2026-08-26 | Real Estate Pricing Agent | Property price estimator agent: linear regression fit with numpy least-squares over a bundled synthetic listings dataset, exposed via both a FastAPI service and a CLI, returning a price range and nearest comparables | [real-estate-pricing-agent](https://github.com/tanu-11sharma/real-estate-pricing-agent) |
 | 2026-08-24 | Retrieval Eval Harness | Offline RAG evaluation harness: TF-IDF retriever, precision@k/recall@k/MRR metrics implemented and unit-tested from scratch, run against a labeled query set via both a FastAPI service and a CLI report | [retrieval-eval-harness](https://github.com/tanu-11sharma/retrieval-eval-harness) |
 | 2026-08-05 | Content Moderation Guardrails | Layered input/output guardrails for LLM apps: PII redaction, prompt-injection heuristics, and a category classifier resolved by an auditable policy engine that returns allow/redact/review/block with reasons | [content-moderation-guardrails](https://github.com/tanu-11sharma/content-moderation-guardrails) |
