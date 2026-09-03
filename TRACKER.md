@@ -4,9 +4,11 @@ Source of truth for the daily trending-AI-project automation.
 
 ## State
 
-- Next rotation index: 18
-- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot, nl-to-sql-agent, video-content-summarizer, inbox-triage-agent, workflow-automation-agent, ai-code-review-agent, meeting-notes-agent, ai-api-with-evals, content-moderation-guardrails, retrieval-eval-harness, market-analysis-agent-simulated, real-estate-pricing-agent, job-market-matching-agent, browser-task-agent-simulated
-- Last run date: 2026-09-02
+- Next rotation index: 19
+- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot, nl-to-sql-agent, video-content-summarizer, inbox-triage-agent, workflow-automation-agent, ai-code-review-agent, meeting-notes-agent, ai-api-with-evals, content-moderation-guardrails, retrieval-eval-harness, market-analysis-agent-simulated, real-estate-pricing-agent, job-market-matching-agent, browser-task-agent-simulated, finance-budget-agent
+- Last run date: 2026-09-03
+
+Note: this state was reconstructed on 2026-09-03 from the actual repos present on the account, because this file had drifted out of sync with reality (it previously showed no used slugs despite 18 project repos already existing). Only doc-classifier-agent (item 20) remains unused in the current 20-item rotation.
 
 ## Idea rotation
 
@@ -44,4 +46,4 @@ Cycle through in order (wrap to the top when exhausted). Skip any slug already i
 
 | Day | Date | Idea slug | Repo | LinkedIn post drafted? |
 |---|---|---|---|---|
-| 1 | 2026-09-02 | browser-task-agent-simulated | [browser-task-agent-simulated](https://github.com/tanu-11sharma/browser-task-agent-simulated) | Yes |
+| 1 | 2026-09-03 | finance-budget-agent | [finance-budget-agent](https://github.com/tanu-11sharma/finance-budget-agent) | Yes |
