@@ -4,15 +4,15 @@ Source of truth for the daily trending-AI-project automation.
 
 ## State
 
-- Next rotation index: 19
-- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot, nl-to-sql-agent, video-content-summarizer, inbox-triage-agent, workflow-automation-agent, ai-code-review-agent, meeting-notes-agent, ai-api-with-evals, content-moderation-guardrails, retrieval-eval-harness, market-analysis-agent-simulated, real-estate-pricing-agent, job-market-matching-agent, browser-task-agent-simulated, finance-budget-agent
-- Last run date: 2026-09-03
+- Next rotation index: 0
+- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot, nl-to-sql-agent, video-content-summarizer, inbox-triage-agent, workflow-automation-agent, ai-code-review-agent, meeting-notes-agent, ai-api-with-evals, content-moderation-guardrails, retrieval-eval-harness, market-analysis-agent-simulated, real-estate-pricing-agent, job-market-matching-agent, browser-task-agent-simulated, finance-budget-agent, doc-classifier-agent, doc-classifier-agent-v2
+- Last run date: 2026-09-07
 
-Note: this state was reconstructed on 2026-09-03 from the actual repos present on the account, because this file had drifted out of sync with reality (it previously showed no used slugs despite 18 project repos already existing). Only doc-classifier-agent (item 20) remains unused in the current 20-item rotation.
+Note: on 2026-09-07, the full 20-item rotation was found to already be used on the account (including `doc-classifier-agent`, which a prior unlogged run had built without updating this file). Per the tracker's own overflow rule, today's build reused rotation item 20 (doc-classifier-agent) with a `-v2` suffix and a meaningfully different technical angle (TF-IDF + cosine-similarity classifier with keyword-fallback escalation, vs. the original's pure rule-based keyword scoring). Rotation index reset to 0 to start a fresh lap; going forward, cycle through the 20 ideas again, this time allowing "-v2" (or "-v3", etc.) suffixed variants whenever the base slug is already used.
 
 ## Idea rotation
 
-Cycle through in order (wrap to the top when exhausted). Skip any slug already in "Used repo slugs" and move to the next one instead — never reuse a slug.
+Cycle through in order (wrap to the top when exhausted). Skip any slug already in "Used repo slugs" and move to the next one instead. If every base slug in a lap is already used, reuse the slug at the current index with a "-v2"/"-v3"/etc. suffix and a genuinely different angle, dataset, or twist.
 
 1. rag-knowledge-assistant — RAG Q&A agent over a small document set, with cited answers
 2. resume-job-matcher — AI resume/candidate-to-job matching agent with a "why this fits" rationale
@@ -47,3 +47,4 @@ Cycle through in order (wrap to the top when exhausted). Skip any slug already i
 | Day | Date | Idea slug | Repo | LinkedIn post drafted? |
 |---|---|---|---|---|
 | 1 | 2026-09-03 | finance-budget-agent | [finance-budget-agent](https://github.com/tanu-11sharma/finance-budget-agent) | Yes |
+| 2 | 2026-09-07 | doc-classifier-agent-v2 | [doc-classifier-agent-v2](https://github.com/tanu-11sharma/doc-classifier-agent-v2) | Yes |
