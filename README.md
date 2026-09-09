@@ -12,6 +12,7 @@ Daily practice building the specific patterns recruiters are screening for in 20
 
 | Date | Project | Idea area | Repo |
 |---|---|---|---|
+| 2026-09-09 | RAG Knowledge Assistant v2 | RAG Q&A agent over a synthetic SaaS FAQ knowledge base: Okapi BM25 retrieval (implemented from scratch), conversational follow-up resolution, and a low-confidence refusal gate, exposed via FastAPI | [rag-knowledge-assistant-v2](https://github.com/tanu-11sharma/rag-knowledge-assistant-v2) |
 | 2026-09-07 | Doc Classifier Agent v2 | Document classification/routing agent: TF-IDF + cosine-similarity classifier that escalates to a keyword-fallback agent when unsure, plus a simulated router agent, over synthetic sample documents (FastAPI) | [doc-classifier-agent-v2](https://github.com/tanu-11sharma/doc-classifier-agent-v2) |
 | 2026-09-03 | Finance Budget Agent | Rule-based personal-finance agent: keyword-driven transaction categorizer plus a budget-vs-actual report over synthetic sample data, exposed via FastAPI | [finance-budget-agent](https://github.com/tanu-11sharma/finance-budget-agent) |
 | 2026-09-02 | Browser Task Agent (Simulated) | Agentic browser-task automation: a rule-based plan-act-verify agent that fills and submits a support-request form against a bundled, local, mock HTML page (no real browser or live site involved) | [browser-task-agent-simulated](https://github.com/tanu-11sharma/browser-task-agent-simulated) |
