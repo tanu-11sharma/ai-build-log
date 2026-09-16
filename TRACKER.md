@@ -4,16 +4,15 @@ Source of truth for the daily trending-AI-project automation.
 
 ## State
 
-- Next rotation index: 2
-- Used repo slugs (base, all 20 have now been used at least once): rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot, nl-to-sql-agent, video-content-summarizer, inbox-triage-agent, workflow-automation-agent, ai-code-review-agent, meeting-notes-agent, ai-api-with-evals, content-moderation-guardrails, retrieval-eval-harness, market-analysis-agent-simulated, real-estate-pricing-agent, job-market-matching-agent, browser-task-agent-simulated, finance-budget-agent, doc-classifier-agent
-- Used v2 repo slugs (second pass, meaningfully different angle from base): rag-knowledge-assistant-v2, doc-classifier-agent-v2, resume-job-matcher-v2
-- Last run date: 2026-09-11
+- Next rotation index: 1
+- Used repo slugs: rag-knowledge-assistant, resume-job-matcher, multiagent-research-assistant, mcp-productivity-agent, support-guardrails-bot, nl-to-sql-agent, video-content-summarizer, inbox-triage-agent, workflow-automation-agent, ai-code-review-agent, meeting-notes-agent, ai-api-with-evals, content-moderation-guardrails, retrieval-eval-harness, market-analysis-agent-simulated, real-estate-pricing-agent, job-market-matching-agent, browser-task-agent-simulated, finance-budget-agent, doc-classifier-agent, resume-job-matcher-v2, rag-knowledge-assistant-v2, doc-classifier-agent-v2, rag-knowledge-assistant-v3, rag-knowledge-assistant-v4
+- Last run date: 2026-09-16
 
-> Note (2026-09-11 reconciliation): this file's State section had drifted out of sync with the actual repo history on GitHub (it read "index 0 / no slugs used" despite all 20 base ideas already existing). Today's run cross-checked the real repo list and creation dates via the GitHub API before picking an idea, corrected the state above accordingly, and built resume-job-matcher-v2 (the next base slug in sequence, item 2, that didn't yet have a v2). Future runs should trust this State section, but if it ever looks suspicious again (e.g. "no slugs used" after many days of runs), cross-check against the actual repo list at https://github.com/tanu-11sharma?tab=repositories before picking an idea, to avoid collisions.
+> **Note (2026-09-16):** This file previously read "Next rotation index: 0" / "Used repo slugs: (none yet)", which did not match reality — a GitHub audit of tanu-11sharma's repos on this date found all 20 base ideas already built, plus resume-job-matcher-v2, rag-knowledge-assistant-v2, and rag-knowledge-assistant-v3. It looks like earlier runs built and pushed projects successfully but the tracker-update step silently failed to commit. The state above has been corrected to match the actual repo list so future runs don't collide with existing repo names. Historical per-day dates for those earlier builds aren't known, so they aren't backfilled into the daily log below — only today's confirmed run is logged.
 
 ## Idea rotation
 
-Cycle through in order (wrap to the top when exhausted). Skip any slug already in "Used repo slugs" and move to the next one instead — never reuse a slug. Once every slug has been used at least once (all 20), the next pass builds a "-v2" (or "-v3", etc.) of the slug at the current index instead, with a meaningfully different angle/dataset/twist per the fallback rule below.
+Cycle through in order (wrap to the top when exhausted). Skip any slug already in "Used repo slugs" and move to the next one instead — never reuse a slug.
 
 1. rag-knowledge-assistant — RAG Q&A agent over a small document set, with cited answers
 2. resume-job-matcher — AI resume/candidate-to-job matching agent with a "why this fits" rationale
@@ -47,4 +46,4 @@ Cycle through in order (wrap to the top when exhausted). Skip any slug already i
 
 | Day | Date | Idea slug | Repo | LinkedIn post drafted? |
 |---|---|---|---|---|
-| 23 | 2026-09-11 | resume-job-matcher-v2 | [resume-job-matcher-v2](https://github.com/tanu-11sharma/resume-job-matcher-v2) | Yes |
+| 1 | 2026-09-16 | rag-knowledge-assistant-v4 | [rag-knowledge-assistant-v4](https://github.com/tanu-11sharma/rag-knowledge-assistant-v4) | Yes |
